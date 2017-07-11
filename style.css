@@ -1,0 +1,64 @@
+body {
+    background: #eee;
+    font-family: 'Helvetica';
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1,
+h2 {
+    margin: 20px;
+}
+
+img {
+    height: 50px;
+    min-width: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+a {
+    color: #ff3b30;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #900;
+    text-decoration: underline;
+}
+
+ul {
+    margin: 0;
+    padding: 10px 20px 0;
+}
+
+li.post {
+    background: #fff;
+    list-style-type: none;
+    margin: 15px 0;
+    padding: 15px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+h3 {
+    margin: 0 20px;
+}
+
+.posts p {
+    color: #888;
+    font-size: 12px;
+    margin: 0;
+}
+
+.pagination {
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.pagination li {
+    float: left;
+    list-style-type: none;
+    margin-right: 10px;
+}

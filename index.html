@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app-reddit">
+    <head>
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1" charset="utf-8">
+        <title>Reddit Clone</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular-route.min.js"></script>
+        <script src="app.module.js"></script>
+        <script src="app.config.js"></script>
+        <script src="post-list/post-list.module.js"></script>
+        <script src="post-list/post-list.component.js"></script>
+        <script src="post-detail/post-detail.module.js"></script>
+        <script src="post-detail/post-detail.component.js"></script>
+        <script src="dirPagination.js"></script>
+    </head>
+    <body>
+        <div ng-view></div>
+    </body>
+</html>

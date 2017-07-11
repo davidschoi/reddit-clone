@@ -1,0 +1,13 @@
+<h1>Reddit Clone</h1>
+<ul class="posts">
+    <li dir-paginate="post in $ctrl.posts | itemsPerPage: 10" class="post">
+        <a class="flex-item" href="#!/posts/{{post.data.id}}">
+            <img ng-src="{{post.data.preview.images[0].source.url}}" alt="{{post.data.title}}"/>
+        </a>
+        <div class="flex-item">
+            <a href="#!/posts/{{post.data.id}}">{{post.data.title}}</a>
+            <p>{{post.data.num_comments}} comments</p>
+        </div>
+    </li>
+</ul>
+<dir-pagination-controls></dir-pagination-controls>
